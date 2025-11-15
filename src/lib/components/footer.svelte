@@ -2,10 +2,13 @@
   class="footer py-10 px-6 mt-12 bg-base-100 text-base-content border-t border-opacity-5"
 >
   <div class="items-center grid-flow-col">
-    <p>Building an aesthetically pleasing web - <b>site by Michael Nji</b></p>
+    <p>
+      Building an aesthetically pleasing web - <b>site by Foka Idriss</b> Aka
+      <b>theGamerZed</b>
+    </p>
   </div>
   <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <a
+    <a href="/"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -17,8 +20,8 @@
         /></svg
       >
     </a>
-    <a
-      ><svg
+    <a href="/">
+      <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
@@ -29,7 +32,7 @@
         /></svg
       ></a
     >
-    <a
+    <a href="/"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"

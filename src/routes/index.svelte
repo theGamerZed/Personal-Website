@@ -16,49 +16,49 @@
 
 <SvelteSeo
   title="Foka | Home"
-  description="Personal website of Michael Nji"
+  description="Personal website of Foka Idriss"
   keywords="web-developer portfolio "
 />
 <Navbar />
 <section
-
-
-
-  class="relative hero-bg lg:px-12 px-6 lg:h-screen text-center  lg:text-left flex flex-col lg:!flex-row-reverse items-start lg:gap-x-8"
+  class="relative hero-bg lg:px-12 px-6 lg:h-screen text-center lg:text-left flex flex-col lg:!flex-row-reverse items-start lg:gap-x-8"
 >
   <div
-    class="lg:w-[50%] w-full  my-8 lg:my-0 grid place-items-center lg:pt-[5rem]"
+    class="lg:w-[50%] w-full my-8 lg:my-0 grid place-items-center lg:pt-[5rem]"
   >
-    <div class=" hidden lg:inline-flex max-w-md p-12   bg-amber-100 c">
-      <img src={logoFull} alt="Michael Nji" class="w-full" />
+    <div class=" hidden lg:inline-flex max-w-md p-12 bg-amber-100 c">
+      <img src={logoFull} alt="foka Idriss" class="w-full" />
     </div>
     <div class="max-w-[15rem] md:max-w-[20em] lg:hidden">
-      <img src={logoFull} alt="Michael Nji" class="w-full" />
+      <img src={logoFull} alt="Foka Idriss" class="w-full" />
     </div>
   </div>
   <div class="lg:max-w-[50%] w-full flex lg:min-h-full items-center">
     <div>
       <h1
-        class="text-6xl md:text-7xl lg:text-8xl font-extrabold font  lg:!text-left break-words text-center"
+        class="text-6xl md:text-7xl lg:text-8xl font-extrabold font lg:!text-left break-words text-center"
       >
         Design. <br />
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e]  to-[#771e77]"
+          class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e] to-[#771e77]"
           >Create.</span
-        > <br /> Develop.
+        > <br /> Code.
       </h1>
       <p
         class="text-2xl mt-4 !mb-12 capitalize opacity-70 text-center lg:text-left font"
->
-        Junior web developer/ aspiring designer & idea creator turning <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e]  to-[#771e77]">Ideas</span>
-        to    <span class="text-transparent bg-clip-text bg-gradient-to-r to-[#dd4e4e]  from-[#771e77]">Reality.</span
+      >
+        Python and CPP developer/ aspiring Robotics and AI Engineer,turning <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e] to-[#771e77]"
+          >Ideas</span
+        >
+        to
+        <span
+          class="text-transparent bg-clip-text bg-gradient-to-r to-[#dd4e4e] from-[#771e77]"
+          >Reality.</span
         >
       </p>
     </div>
-    </div>
+  </div>
 </section>
-
 <section>
   <div class="py-3">
     <Marquee>
@@ -91,7 +91,7 @@
       </div>
     </Marquee>
   </div>
-  <div class="hero ">
+  <div class="hero">
     <div
       class="hero-content flex-col lg:flex-row items-center lg:items-center gap-12 text-center lg:text-left lg:px-20 mt-20"
     >
@@ -99,21 +99,22 @@
         class="p-2 bg-gradient-to-r from-amber-700 via-[#dd4e4e] to-[#771e77] h-max w-full max-w-[140px] rounded-box shadow-2xl bg-repeat-y"
       >
         <div
-          class="w-full min-h-[290px]  pfp rounded-box"
+          class="w-full min-h-[290px] pfp rounded-box"
           style={`background-image: url(./images/me2.jpg)`}
         />
       </div>
 
       <div>
         <h1 class="text-5xl font-extrabold font-head capitalize">
-          Blogger • Designer • <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e]  to-[#771e77]"
+          Student • Designer • <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-[#dd4e4e] to-[#771e77]"
             >Developer</span
           >
         </h1>
         <div class="prose prose-xl py-6 lg:max-w-2xl">
           <p>
-            My name is <b>Idriss Foka</b> and I am a self-taught Python, C++ and frontend developer with a knack for design and digital stuff.
+            My name is <b>Idriss Foka</b> and I am a self-taught Python, C++ and
+            frontend developer with a knack for design and digital stuff.
           </p>
           <p>
             A 22 year old who discovered coding back in 2019 and has been
@@ -131,7 +132,7 @@
               class="flex flex-row gap-5 flex-wrap justify-center lg:justify-start"
             >
               <div
-                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100"
+                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
                   <CompanyLogo size={24} name="js" />
@@ -139,7 +140,7 @@
                 <div class="text-xl font-bold font-code">Javascript</div>
               </div>
               <div
-                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100"
+                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
                   <CompanyLogo size={24} name="tailwindcss" />
@@ -178,7 +179,7 @@
               class="flex flex-row gap-5 flex-wrap justify-center lg:justify-start"
             >
               <div
-                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100"
+                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
                   <CompanyLogo size={24} name="playstation" />
@@ -186,7 +187,7 @@
                 <div class="text-xl font-bold font-code">Games</div>
               </div>
               <div
-                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100"
+                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
                   <CompanyLogo size={24} name="wattpad" />
@@ -194,7 +195,7 @@
                 <div class="text-xl font-bold font-code">Reading</div>
               </div>
               <div
-                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100"
+                class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
                   <CompanyLogo size={24} name="vscode" />
@@ -202,7 +203,7 @@
                 <div class="text-xl font-bold font-code">Coding</div>
               </div>
               <div
-                class="p-2 rounded-md shadow-xl  flex gap-4 items-center  bg-base-100 max-w-max justify-start"
+                class="p-2 rounded-md shadow-xl flex gap-4 items-center bg-base-100 max-w-max justify-start"
               >
                 <CompanyLogo size={24} name="youtube" />
 
@@ -216,7 +217,6 @@
   </div>
 </section>
 
-
 <div class="hero mt-24">
   <div
     class="hero-content flex-col lg:flex-row-reverse lg:items-start gap-12 w-full"
@@ -226,13 +226,13 @@
       <p class="py-6 text-2xl">Let's talk about anything (*_*)</p>
 
       <div class="p-4 rounded-box w-full">
-        <h3 class="font-head font-bold  text-2xl py-3">Social links</h3>
+        <h3 class="font-head font-bold text-2xl py-3">Social links</h3>
         <div
           class="flex flex-row gap-5 flex-wrap justify-center lg:justify-start"
         >
           <a href="/">
             <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100 hover:bg-base-300 transition"
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
                 <CompanyLogo size={24} name="facebook" />
@@ -242,7 +242,7 @@
           </a>
           <a href="/">
             <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100 hover:bg-base-300 transition"
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
                 <CompanyLogo size={24} name="discord" />
@@ -252,7 +252,7 @@
           </a>
           <a href="/">
             <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100 hover:bg-base-300 transition"
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
                 <CompanyLogo size={24} name="twitter" />
@@ -262,12 +262,32 @@
           </a>
           <a href="/">
             <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center  bg-base-100 hover:bg-base-300 transition"
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
                 <CompanyLogo size={24} name="youtube" />
               </div>
               <div class="text-xl font-bold font-code">Youtube</div>
+            </div>
+          </a>
+          <a href="/">
+            <div
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
+            >
+              <div class="max-w-[16rem]">
+                <CompanyLogo size={24} name="youtube" />
+              </div>
+              <div class="text-xl font-bold font-code">Git</div>
+            </div>
+          </a>
+          <a href="/">
+            <div
+              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
+            >
+              <div class="max-w-[16rem]">
+                <CompanyLogo size={24} name="youtube" />
+              </div>
+              <div class="text-xl font-bold font-code">Linkedin</div>
             </div>
           </a>
         </div>
@@ -304,55 +324,53 @@
     </div>
   </div>
 </div>
-<!-- <section class="">
+<section class="">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-12">
-      <h1 class="sm:text-5xl text-4xl font-bold mb-4 ">Join my newsletter!</h1>
+      <h1 class="sm:text-5xl text-4xl font-bold mb-4">Let's collaborate!</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-        I run a weekly newsletter on web development and UI design. <br />Get my
-        latest posts on these topics and more in your inbox every saturday!
+        I am a very friendly individual who loves to get to know new people. <br
+        />
+        Got any <strong>Tasty Ideas?</strong> shoot me a message!
       </p>
     </div>
     <div
       class="flex lg:w-2/3 w-full md:flex-row flex-col mx-auto px-8 md:px-0 md:items-end md:space-x-4 md:space-y-0 space-y-4"
     >
       <div class="relative md:mb-0 flex-grow w-full">
-        <label for="full-name" class="label">Full Name</label>
-        <input
-          type="text"
-          id="full-name"
-          name="full-name"
-          class="input input-bordered w-full"
-        />
-      </div>
-      <div class="relative md:mb-0 flex-grow w-full">
         <label for="email" class="label">Email</label>
         <input
           type="email"
+          placeholder="theZed@google.com"
           id="email"
           name="email"
           class="input input-bordered w-full"
         />
       </div>
-      <button class="btn btn-primary">sign me up!</button>
+      <div class="relative md:mb-0 flex-grow w-full">
+        <label for="email" class="label">Message</label>
+        <input
+          type="text"
+          placeholder="Message..."
+          name="email"
+          class="input input-bordered w-full"
+        />
+      </div>
+      <button class="btn btn-secondary">Collaborate</button>
     </div>
   </div>
-</section> -->
+</section>
 
 <Footer />
 
 <style>
-  /* .highlight {
-    padding: 2px 0;
-    background: url(https://s2.svgbox.net/pen-brushes.svg?ic=brush-8&color=b197fc);
-  } */
   .hero-bg {
     background-color: transparent;
     background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.13'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
   .pfp {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .c {
