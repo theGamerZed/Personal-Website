@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply capitalize !rounded-none !py-0 font-medium;
+}
+.btn:not(.btn-alt):not(.btn-ghost):not(.btn-link) {
+  @apply border-2  border-black duration-75;
+
+  box-shadow: -4px 4px #000;
+}
+.btn:not(.btn-alt):not(.btn-ghost):not(.btn-link):hover {
+  box-shadow: -5px 5px #000;
+  @apply border-black;
+}
+.btn:active:not(.btn-alt):not(.btn-ghost):not(.btn-link),
+.btn-active:not(.btn-alt):not(.btn-ghost):not(.btn-link) {
+  box-shadow: -1px 2px #000;
+}
+
+.btn-alt.btn-primary {
+  @apply bg-opacity-30 text-primary bg-primary border-transparent;
+}
+
+.btn-alt:hover.btn-primary {
+  @apply bg-opacity-40 text-primary bg-primary border-transparent;
+}
+
+.btn-alt.btn-accent {
+  @apply bg-opacity-30 text-accent bg-accent border-transparent;
+}
+
+.btn-alt:hover.btn-accent {
+  @apply bg-opacity-40 text-accent bg-accent border-transparent;
+}
+
+.btn-alt.btn-info {
+  @apply bg-opacity-30 text-info bg-info border-transparent;
+}
+
+.btn-alt:hover.btn-info {
+  @apply bg-opacity-40 text-info bg-info border-transparent;
+}
+
+.btn-alt.btn-success {
+  @apply bg-opacity-30 text-success bg-success border-transparent;
+}
+
+.btn-alt:hover.btn-success {
+  @apply bg-opacity-40 text-success bg-success border-transparent;
+}
+
+.btn-alt.btn-warning {
+  @apply bg-opacity-30 text-warning bg-warning border-transparent;
+}
+
+.btn-alt:hover.btn-warning {
+  @apply bg-opacity-40 text-warning bg-warning border-transparent;
+}
+.btn-alt .btn-error {
+  @apply bg-opacity-30 text-error bg-error border-transparent;
+}
+
+.btn-alt:hover.btn-error {
+  @apply bg-opacity-40 text-error bg-error border-transparent;
+}
+.btn-alt.btn-secondary {
+  @apply bg-opacity-30 text-secondary bg-secondary border-transparent;
+}
+
+.btn-alt:hover.btn-secondary {
+  @apply bg-opacity-40   text-secondary bg-secondary border-transparent;
+}
+
+.btn-alt {
+  @apply bg-opacity-30 text-base-content bg-neutral-focus border-transparent;
+}
+
+.btn-alt:hover {
+  @apply bg-opacity-40 text-base-content bg-neutral-focus border-transparent;
+}
+
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply bg-primary rounded-full shadow-2xl shadow-primary;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: 4px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+
+  opacity: 1;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+.post img {
+  @apply !shadow !rounded border-2 border-black;
+}
+.post iframe {
+  z-index: 0 !important;
+}
