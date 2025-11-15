@@ -348,11 +348,11 @@
         />
       </div>
       <div class="relative md:mb-0 flex-grow w-full">
-        <label for="email" class="label">Message</label>
+        <label for="text" class="label">Message</label>
         <input
           type="text"
           placeholder="Message..."
-          name="email"
+          name="text"
           class="input input-bordered w-full"
         />
       </div>
