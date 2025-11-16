@@ -17,7 +17,7 @@
 <SvelteSeo
   title="Foka | Home"
   description="Personal website of Foka Idriss"
-  keywords="web-developer portfolio "
+  keywords="Python-developer portfolio "
 />
 <Navbar />
 <section
@@ -27,11 +27,11 @@
     class="lg:w-[50%] w-full my-8 lg:my-0 grid place-items-center lg:pt-[5rem]"
   >
     <div class=" hidden lg:inline-flex max-w-md p-12 bg-amber-100 c">
-      <img src={logoFull} alt="foka Idriss" class="w-full" />
+      <img src={logoFull} alt="foka Idriss" class="" />
     </div>
-    <div class="max-w-[15rem] md:max-w-[20em] lg:hidden">
+    <!-- <div class="max-w-[15rem] md:max-w-[20em] lg:hidden">
       <img src={logoFull} alt="Foka Idriss" class="w-full" />
-    </div>
+    </div> -->
   </div>
   <div class="lg:max-w-[50%] w-full flex lg:min-h-full items-center">
     <div>
