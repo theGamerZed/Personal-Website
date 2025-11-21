@@ -26,7 +26,7 @@
   <div
     class="lg:w-[50%] w-full my-8 lg:my-0 grid place-items-center lg:pt-[5rem]"
   >
-    <div class=" hidden lg:inline-flex max-w-md p-12 bg-amber-100 c">
+    <div class=" hidden lg:inline-flex max-w-md p-2 bg-amber-100 c">
       <img src={logoFull} alt="foka Idriss" class="" />
     </div>
     <!-- <div class="max-w-[15rem] md:max-w-[20em] lg:hidden">
@@ -75,19 +75,22 @@
         <CompanyLogo size={36} name="js" config="mx-8" />
       </div>
       <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
-        <CompanyLogo size={40} name="sass" config="mx-8" />
+        <CompanyLogo size={36} name="python" config="mx-8" />
       </div>
       <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
-        <CompanyLogo size={36} name="supabase" config="mx-8" />
+        <CompanyLogo size={36} name="cplusplus" config="mx-8" />
       </div>
       <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
         <CompanyLogo size={36} name="vercel" config="mx-8" />
       </div>
       <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
-        <CompanyLogo size={36} name="contentful" config="mx-8" />
+        <CompanyLogo size={36} name="tailwindCSS" config="mx-8" />
       </div>
       <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
-        <CompanyLogo size={36} name="pwa" config="mx-8" />
+        <CompanyLogo size={36} name="Github" config="mx-8" />
+      </div>
+      <div class="p-3 my-2 rounded-box shadow-xl bg-base-100 mx-4">
+        <CompanyLogo size={36} name="vite" config="mx-8" />
       </div>
     </Marquee>
   </div>
@@ -117,7 +120,7 @@
             frontend developer with a knack for design and digital stuff.
           </p>
           <p>
-            A 22 year old who discovered coding back in 2019 and has been
+            A 22 year old who discovered coding back in <b>2019</b> and has been
             fiddling with these technologies ever since. <br />
             When I'm not coding I'm playing <b>Clash of Clans</b> or watching tutorials
             on Youtube
@@ -143,17 +146,17 @@
                 class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100"
               >
                 <div class="max-w-[16rem]">
-                  <CompanyLogo size={24} name="tailwindcss" />
+                  <CompanyLogo size={24} name="cplusplus" />
                 </div>
-                <div class="text-xl font-bold font-code">TailwindCSS</div>
+                <div class="text-xl font-bold font-code">c++</div>
               </div>
               <div
                 class="p-2 rounded-md flex gap-4 items-center shadow-xl max-w-fit bg-base-100"
               >
                 <div class="max-w-[16rem]">
-                  <CompanyLogo size={24} name="ts" />
+                  <CompanyLogo size={24} name="python" />
                 </div>
-                <div class="text-xl font-bold font-code">Typescript</div>
+                <div class="text-xl font-bold font-code">python</div>
               </div>
               <div
                 class="p-2 rounded-md flex gap-4 items-center shadow-xl max-w-fit bg-base-100"
@@ -230,27 +233,7 @@
         <div
           class="flex flex-row gap-5 flex-wrap justify-center lg:justify-start"
         >
-          <a href="/">
-            <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
-            >
-              <div class="max-w-[16rem]">
-                <CompanyLogo size={24} name="facebook" />
-              </div>
-              <div class="text-xl font-bold font-code">Facebook</div>
-            </div>
-          </a>
-          <a href="/">
-            <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
-            >
-              <div class="max-w-[16rem]">
-                <CompanyLogo size={24} name="discord" />
-              </div>
-              <div class="text-xl font-bold font-code">Discord</div>
-            </div>
-          </a>
-          <a href="/">
+          <a href="https://x.com/ThegamerZed" target="_blank">
             <div
               class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
@@ -260,32 +243,22 @@
               <div class="text-xl font-bold font-code">Twitter</div>
             </div>
           </a>
-          <a href="/">
+          <a href="https://github.com/theGamerZed" target="_blank">
             <div
               class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
-                <CompanyLogo size={24} name="youtube" />
+                <CompanyLogo size={24} name="Github" />
               </div>
-              <div class="text-xl font-bold font-code">Youtube</div>
+              <div class="text-xl font-bold font-code">Github</div>
             </div>
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/idriss-saurel-foka-fotsing-465065227" target="_blank">
             <div
               class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
               <div class="max-w-[16rem]">
-                <CompanyLogo size={24} name="youtube" />
-              </div>
-              <div class="text-xl font-bold font-code">Git</div>
-            </div>
-          </a>
-          <a href="/">
-            <div
-              class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
-            >
-              <div class="max-w-[16rem]">
-                <CompanyLogo size={24} name="youtube" />
+                <CompanyLogo size={24} name="linkedin" />
               </div>
               <div class="text-xl font-bold font-code">Linkedin</div>
             </div>
