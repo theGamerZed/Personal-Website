@@ -2,7 +2,9 @@
   import { fly } from "svelte/transition";
   import Footer from "$lib/components/footer.svelte";
   import Navbar from "$lib/components/navbar.svelte";
-  import imga from "/images/illlustrations.svg";
+  // import imga from "/images/illlustrations.svg";
+  import imga from "/static/images/illlustrations.svg";
+  
   
   // Add your projects here
   const projects = [
