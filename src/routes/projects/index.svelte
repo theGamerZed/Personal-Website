@@ -2,14 +2,14 @@
   import { fly } from "svelte/transition";
   import Footer from "$lib/components/footer.svelte";
   import Navbar from "$lib/components/navbar.svelte";
-  import imga from "/static/images/illlustrations.svg";
+  import imga from "/images/illlustrations.svg";
   
   // Add your projects here
   const projects = [
     {
       title: "My Project",
       description: "This is my portfolio project. It showcases my skills and work.",
-      image: "/static/project_pics/me.jpg",
+      image: "/project_pics/me.jpg",
       url: "https://personal-website-wheat-nine-73.vercel.app/",
       buttonText: "View Project"
     },
@@ -17,14 +17,14 @@
     {
       title: "Online Movie Database",
       description: "A simple movie database application built with Flask and Cline and Bootstrap. It allows users to add movies, view details, and manage their favorite/watched movies.",
-      image: "/static/project_pics/movie.png",
+      image: "/project_pics/movie.png",
       url: "https://github.com/theGamerZed/Cline-Mastery",
       buttonText: "View Project"
     },
     {
       title: "Automatic job application",
       description: "An application that automatically applies to jobs on JOBRUF.com based on preset preferences and qualifications.",
-      image: "/static/project_pics/job_ruf.png",
+      image: "/project_pics/job_ruf.png",
       url: "https://github.com/theGamerZed/jobruf-jobs-",
       buttonText: "View Project"
     },
