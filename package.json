@@ -18,7 +18,7 @@
     "nprogress": "^0.2.0",
     "postcss": "^8.4.13",
     "renderless-svelte": "^1.7.0",
-    "svelte": "^3.46.0",
+    "svelte": "^3.59.2",
     "svelte-copy": "^1.2.4",
     "svelte-feather-icons": "^4.0.0",
     "svelte-loading-spinners": "^0.1.7",

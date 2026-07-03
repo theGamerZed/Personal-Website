@@ -32,7 +32,7 @@
       </svg
       ></a
     >
-    <a href="https://www.linkedin.com/in/idriss-saurel-foka-fotsing-465065227" target="_blank"
+    <a href="https://www.linkedin.com/in/idriss-s-foka-465065227/" target="_blank"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -60,9 +60,7 @@
       </g>
     </g>
   </g>
-</svg>
-          /></svg
-      ></a
+</svg></svg></a
     >
   </div>
 </footer>

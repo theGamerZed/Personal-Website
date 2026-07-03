@@ -253,7 +253,7 @@
               <div class="text-xl font-bold font-code">Github</div>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/idriss-saurel-foka-fotsing-465065227" target="_blank">
+          <a href="https://www.linkedin.com/in/idriss-s-foka-465065227" target="_blank">
             <div
               class="p-2 rounded-md shadow-xl max-w-fit flex gap-4 items-center bg-base-100 hover:bg-base-300 transition"
             >
