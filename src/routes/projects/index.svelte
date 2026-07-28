@@ -8,8 +8,15 @@
   
   // Add your projects here
   const projects = [
+   {
+      title: "Petit Market",
+      description: "This is our first project. It is a simple e-commerce website built with Astro and React. It allows users to browse products, add them to the cart, and checkout. Like Facebook Marketplace.",
+      image: "/project_pics/petit_market.png",
+      url: "https://petitmarket.cm/",
+      buttonText: "View Project"
+    },
     {
-      title: "My Project",
+      title: "My Portfolio",
       description: "This is my portfolio project. It showcases my skills and work.",
       image: "/project_pics/me.jpg",
       url: "https://personal-website-wheat-nine-73.vercel.app/",
@@ -46,7 +53,7 @@
   </h1>
   
   {#if projects.length > 0}
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
       {#each projects as project}
         <div class="card bg-base-100 shadow-xl">
           <figure class="px-4 pt-4">
