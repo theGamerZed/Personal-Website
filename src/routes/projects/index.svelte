@@ -4,38 +4,49 @@
   import Navbar from "$lib/components/navbar.svelte";
   // import imga from "/images/illlustrations.svg";
   import imga from "/static/images/illlustrations.svg";
-  
-  
+
   // Add your projects here
   const projects = [
-   {
+    {
       title: "Petit Market",
-      description: "This is our first project. It is a simple e-commerce website built with Astro and React. It allows users to browse products, add them to the cart, and checkout. Like Facebook Marketplace.",
+      description:
+        "This is our first project. It is a simple e-commerce website built with Astro and React. It allows users to browse products, add them to the cart, and checkout. Like Facebook Marketplace.",
       image: "/project_pics/petit_market.png",
       url: "https://petitmarket.cm/",
-      buttonText: "View Project"
+      buttonText: "View Project",
     },
     {
       title: "My Portfolio",
-      description: "This is my portfolio project. It showcases my skills and work.",
+      description:
+        "This is my portfolio project. It showcases my skills and work.",
       image: "/project_pics/me.jpg",
       url: "https://personal-website-wheat-nine-73.vercel.app/",
-      buttonText: "View Project"
+      buttonText: "View Project",
     },
     // Add more projects below:
     {
       title: "Online Movie Database",
-      description: "A simple movie database application built with Flask and Cline and Bootstrap. It allows users to add movies, view details, and manage their favorite/watched movies.",
+      description:
+        "A simple movie database application built with Flask and Cline and Bootstrap. It allows users to add movies, view details, and manage their favorite/watched movies.",
       image: "/project_pics/movie.png",
       url: "https://github.com/theGamerZed/Cline-Mastery",
-      buttonText: "View Project"
+      buttonText: "View Project",
     },
     {
       title: "Automatic job application",
-      description: "An application that automatically applies to jobs on JOBRUF.com based on preset preferences and qualifications.",
+      description:
+        "An application that automatically applies to jobs on JOBRUF.com based on preset preferences and qualifications.",
       image: "/project_pics/job_ruf.png",
       url: "https://github.com/theGamerZed/jobruf-jobs-",
-      buttonText: "View Project"
+      buttonText: "View Project",
+    },
+    {
+      title: "Chess Engine",
+      description:
+        "A chess engine built with Python and the Pygame library. It allows users to play against the computer or another player.",
+      image: "/project_pics/engine.png",
+      url: "https://github.com/theGamerZed/engine",
+      buttonText: "View Project",
     },
   ];
 </script>
@@ -44,22 +55,21 @@
   <title>Projects</title>
 </svelte:head>
 <Navbar />
-<div
-  class="container mx-auto px-4 py-12"
-  in:fly={{ y: 100 }}
->
+<div class="container mx-auto px-4 py-12" in:fly={{ y: 100 }}>
   <h1 class="font-head text-5xl font-extrabold text-center mb-12">
     My Projects
   </h1>
-  
+
   {#if projects.length > 0}
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center"
+    >
       {#each projects as project}
         <div class="card bg-base-100 shadow-xl">
           <figure class="px-4 pt-4">
-            <img 
-              src={project.image} 
-              alt={project.title} 
+            <img
+              src={project.image}
+              alt={project.title}
               class="rounded-xl w-full h-48 object-cover"
             />
           </figure>
